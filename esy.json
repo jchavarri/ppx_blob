@@ -1,0 +1,13 @@
+{
+  "name": "ppx_blob",
+  "version": "1.2.0",
+  "esy": {
+    "build": "dune build -p #{self.name}"
+  },
+  "dependencies": {
+    "@opam/ocaml-migrate-parsetree": "*",
+    "ocaml": "~4.6.1000",
+    "@opam/dune": "*",
+    "@opam/reason": "*"
+  }
+}

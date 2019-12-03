@@ -8,3 +8,5 @@ example/quine
 _build
 .merlin
 *.install
+node_modules
+_esy

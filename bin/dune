@@ -1,0 +1,6 @@
+(executable
+  (name Bin)
+  (public_name ppx_blob_bs)
+  (libraries ppx_blob)
+  (ocamlopt_flags ( -linkall ))
+)
